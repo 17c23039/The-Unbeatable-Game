@@ -1,8 +1,8 @@
 from time import sleep
 import random
-score = int(1)
+score = int(0)
+global score
 def rps () :
-  global score
   rpschoice = input("Rock, paper, or scissors? R/P/S. ")
   sleep(1)
   print("Rock,")
